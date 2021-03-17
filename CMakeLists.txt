@@ -413,7 +413,7 @@ set(
 	src/net/quic/core/proto/source_address_token.proto
 )
 
-find_package(Protobuf 3)
+# find_package(Protobuf 3)
 
 if(Protobuf_FOUND AND FALSE)  # Turn off protobuf. Use bundled protobuf instead
 	set(GENERATE_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
